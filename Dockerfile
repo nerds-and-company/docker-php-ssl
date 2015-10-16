@@ -7,6 +7,9 @@ RUN a2enmod socache_shmcb ssl
 RUN sed -i.bak s/snakeoil.pem/snakeoil.crt/ /etc/apache2/sites-available/default-ssl.conf
 RUN a2ensite default-ssl
 
+COPY apache-sites/http-redirect.conf /etc/apache2/sites-available/http-redirect.conf
+RUN a2ensite http-redirect
+
 # The self-signed certificates use these names in the default apache config
 # For this copy to work, these files need to be present in the project root.
 ONBUILD COPY ssl-cert-snakeoil.key /etc/ssl/private/
