@@ -1,31 +1,18 @@
-# itmundi/php
+# itmundi/php-ssl
 Itmundi PHP + SSL image for Docker
+This container extends the `itmundi/php-base` container. See for more information that container.
 
-## Contains
+## Additionally contains
 
-### OS
- - Based on the itmundi:php image
-
-### Services
- - Apache 2.4 + SSL
- - PHP 5.6
-
-* Derived from [docker-libary/php](https://github.com/github.com/itmundi/docker-php)
+### services
+ - SSL (Apache)
 
 ### PHP Extensions
- - mcrypt
- - mbstring
- - gd
- - pdo_mysql
- - zip
- - bz2
+ - socache_shmcb
+ - ssl
 
-### Other
- - Contains git
- - Contains curl
- - Contains a MySQL client
- - Contains Redis CLI Tools
- - Contains composer
+## See also
+- [`itmundi/php-base`](https://github.com/itmundi/docker-php-base)
 
 ## License
 [MIT](LICENSE)
