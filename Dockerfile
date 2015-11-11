@@ -1,5 +1,5 @@
-FROM itmundi/php-base
-MAINTAINER Arjan Kleene <a.kleene@itmundi.nl>
+FROM nerdsandcompany/php-base
+MAINTAINER Arjan Kleene <a.kleene@nerds.company>
 
 # Add required modules for SSL (these are disabled by default)
 RUN a2enmod socache_shmcb ssl

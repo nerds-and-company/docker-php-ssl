@@ -1,6 +1,6 @@
-# itmundi/php-ssl
-Itmundi PHP + SSL image for Docker
-This container extends the `itmundi/php-base` container. See for more information that container.
+# nerdsandcompany/php-ssl
+Nerds and Company PHP + SSL image for Docker
+This container extends the `nerdsandcompany/php-base` container. See for more information that container.
 
 ## Additionally contains
 
@@ -12,7 +12,7 @@ This container extends the `itmundi/php-base` container. See for more informatio
  - ssl
 
 ## See also
-- [`itmundi/php-base`](https://github.com/itmundi/docker-php-base)
+- [`nerdsandcompany/php-base`](https://github.com/nerds-and-company/docker-php-base)
 
 ## License
 [MIT](LICENSE)
