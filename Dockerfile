@@ -20,4 +20,4 @@ ONBUILD COPY ssl-cert-snakeoil.crt /etc/ssl/certs/
 ONBUILD ADD . /var/www/html/
 
 # Run composer install if composer.json is present
-ONBUILD RUN "[ -e composer.json ] && composer install --prefer-source --no-interaction"
+ONBUILD RUN "[ ! -e composer.json ] || composer install --prefer-source --no-interaction"
