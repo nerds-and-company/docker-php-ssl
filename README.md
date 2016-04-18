@@ -11,6 +11,9 @@ This container extends the `nerdsandcompany/php-base` container. See for more in
  - socache_shmcb
  - ssl
 
+### Tools
+ - Composer
+
 ## See also
 - [`nerdsandcompany/php-base`](https://github.com/nerds-and-company/docker-php-base)
 
