@@ -1,5 +1,5 @@
 FROM nerdsandcompany/php-base
-MAINTAINER Arjan Kleene <a.kleene@nerds.company>
+MAINTAINER Bob Olde Hampsink <b.oldehampsink@nerds.company>
 
 # Add required modules for SSL (these are disabled by default)
 RUN a2enmod socache_shmcb ssl
