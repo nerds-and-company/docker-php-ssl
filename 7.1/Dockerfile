@@ -1,4 +1,4 @@
-FROM nerdsandcompany/php-base:7.0
+FROM nerdsandcompany/php-base:7.1
 MAINTAINER Bob Olde Hampsink <b.oldehampsink@nerds.company>
 
 # Add required modules for SSL (these are disabled by default)
